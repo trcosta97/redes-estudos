@@ -1,6 +1,4 @@
-﻿# Redes
-## dos conceitos iniciais à criação de uma intranet
-
+﻿# Redes - dos conceitos iniciais à criação de uma intranet  
 
 ### Camadas, protocolos, ping e traceroute   
 Uma rede é um emaranhado de dispositivos que se comunica entre si. A internet é uma rede global.Uma rede precisa de um padrão de comunicação para que os dispositivos de uma rede se entendam e esse padrão são os protocolos.  
@@ -73,6 +71,26 @@ O protocolo *ICMP* é o que faz o comando *ping* funcionar. Ele é usado para tr
 O protocolo *ARP* permite que identificar o endereço físico de uma máquina a partir de seu protocolo de IP.  
 
 Mesmo com o *ping* sendo direcionado para o computador da Embalagem, o computado do Acabamento também recebeu os pacotes, tanto na ida quando na volta. Isso ocorreu por que o HUB funciona assim. Ele manda os pacotes pra todos os dispositivos conectados. Ele funciona como um *broadcast*, o que causa congestionamento da rede, além de poder divulgar mensagens de caráter privado. Por isso o HUB só é utilziado em redes menores e menos exigentes em questão de requisitos.
+
+#### DNS e Nslookup
+
+O protocolo DNS funciona como uma agenda de telefone num celular. Ele associa o nome do domínio com o endereço de IP do site na rede. A partir do Nslookup, é possível pesquisar pelo prompt de comando nessa "agenda de contatos".
+
+```console
+$ nslookup www.google.com
+Servidor:  UnKnown
+Address:  192.168.1.1
+
+Não é resposta autoritativa:
+Nome:    www.google.com
+Addresses:  2800:3f0:4001:823::2004
+          142.250.219.132
+```
+
+#### Cabos de conexão
+
+
+
 
 
 
